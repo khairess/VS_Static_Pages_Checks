@@ -30,8 +30,9 @@ public class VisualStories_TC {
 	  String current_title=comman_oper.driver.getTitle();
 	  check_page_title(current_title, exl_page_title, page_URL);
 	  
+	  String logo_img_src="//img[contains(@src,'https://media.visualstories.com/vs/logo-183x60.png')]";
 	  WebDriverWait wait = new WebDriverWait(comman_oper.driver,10);	  
-	  WebElement logo=comman_oper.driver.findElement(By.xpath("//img[contains(@src,'https://media.visualstories.com/vs/logo-183x60.png')]"));
+	  WebElement logo=comman_oper.driver.findElement(By.xpath(logo_img_src));
 	  wait.until(ExpectedConditions.visibilityOf(logo));
 	  check_logo(logo,page_URL);
 	  
