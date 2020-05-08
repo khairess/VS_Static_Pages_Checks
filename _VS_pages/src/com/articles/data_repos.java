@@ -2,6 +2,8 @@ package com.articles;
 
 import org.testng.annotations.DataProvider;
 
+//This class contain such method, which process under data provider using excel_util class. 
+
 public class data_repos {
   @DataProvider(name="article_list")
   public static Object[][] loginsheet() 
