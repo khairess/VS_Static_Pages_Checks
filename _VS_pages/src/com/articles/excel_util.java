@@ -8,6 +8,8 @@ import jxl.Workbook;
 import jxl.Sheet;
 import jxl.read.biff.BiffException;
 
+//Using this class we can read and excel and pass the data to data provider using to 2-D array.  
+
 public class excel_util {
 	
 	public static String[][] getexceldata(String filename, String sheet)

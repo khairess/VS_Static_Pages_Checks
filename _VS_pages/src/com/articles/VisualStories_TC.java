@@ -13,7 +13,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-
+//This class is our main script, we can say run our whole project from this class.
 
 public class VisualStories_TC {
 
