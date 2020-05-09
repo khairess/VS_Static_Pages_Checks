@@ -15,14 +15,15 @@ public static String exePath = "G:\\mobile app testing\\---------------------exc
 //In this class we create comman operation (method) which require for project  
 
 //public static WebDriver Open_given_Browser(String broswerName)
+
 public static void Open_given_Browser()
 	{
 	
-	//System.setProperty("webdriver.chrome.driver", exePath+"chromedriver.exe");
-	//driver=new ChromeDriver();
+	System.setProperty("webdriver.chrome.driver", exePath+"chromedriver.exe");
+	driver=new ChromeDriver();
 	
-	System.setProperty("webdriver.gecko.driver", exePath+"geckodriver.exe");
-	driver = new FirefoxDriver();
+	//System.setProperty("webdriver.gecko.driver", exePath+"geckodriver.exe");
+	//driver = new FirefoxDriver();
 	
 	driver.manage().window().maximize();
 	wait=new WebDriverWait(driver,5);
