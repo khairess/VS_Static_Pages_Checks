@@ -13,7 +13,7 @@ public static WebDriverWait wait;
 public static String exePath = "G:\\mobile app testing\\---------------------excel property file\\Browser_drivers\\";
 
 //In this class we create comman operation (method) which require for project.  
-//------------------------------------------------------------------
+//----------------------------------------------------------------------
 //public static WebDriver Open_given_Browser(String broswerName)
 
 public static void Open_given_Browser()
